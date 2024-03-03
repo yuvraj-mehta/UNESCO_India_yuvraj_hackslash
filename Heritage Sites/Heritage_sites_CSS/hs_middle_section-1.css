@@ -1,0 +1,84 @@
+.hs_middle_section_1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hs_pictures{
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hs_container_ms_1{
+  position: relative;
+  display: flex;
+}
+
+.text-overlay{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  padding: 10px;
+  color: floralwhite;
+  width: 80%;
+  text-align: center;
+}
+
+.hs_name{
+  display: flex;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+}
+
+.hs_caption{
+  color: rgb(255, 255, 255);
+  display: flex;
+  font-size: 20px;
+  left: 20%;
+}
+
+.heritage_site_main_pic{
+  width: 900px;
+  border-radius: 13px;
+  transition: box-shadow 0.3s;
+}
+
+.search-sites{
+  height: 35px;
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.submit-button{
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  background-color: rgb(4, 104, 253);
+  color: white;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+/* Transition&Animation */
+.heritage_site_main_pic:hover{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}

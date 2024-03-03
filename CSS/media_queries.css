@@ -1,0 +1,258 @@
+/* Header */
+@media only screen and (max-width: 1000px) {
+  .header_right, .header_bottom, .footer_left_3{
+    display: none;
+  }
+  *{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+/* Footer */
+@media only screen and (max-width: 725px) {
+  .footer_container{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .footer_left, .footer_right{
+    flex: 1;
+  }
+
+  .header_right, .header_bottom, .footer_left_3, .footer_left_2{
+    display: none;
+  }
+
+  *{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 485px) {
+  
+
+  .follow, .social_media{
+    font-size: 25px;
+    padding-left: 40px;
+  }
+
+  .follow, .social_media{
+    font-size: 25px;
+  }
+
+  .header_right, .header_bottom, .footer_left{
+    display: none;
+  }
+
+  *{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer_container{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .follow, .social_media{
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .follow, .social_media{
+    font-size: 25px;
+  }
+
+  .header_right, .header_bottom, .footer_left{
+    display: none;
+  }
+
+  *{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+/* Middle Section-1 */
+@media only screen and (max-width: 1000px){
+  .hawa-mahal{
+    width: 500px;
+  }
+
+  .Explore{
+    font-size: 16px;
+  }
+
+  .text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 10px;
+    color: floralwhite;
+    width: 80%;
+    text-align: center;
+  }
+
+  .search-sites{
+    height: 25px;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:8px;
+    padding-bottom:8px;
+    transition: box-shadow 0.3s;
+    font-size: 16px;
+  }
+  
+  
+  .submit-button{
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(4, 104, 253);
+    color: white;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:8px;
+    padding-bottom:8px;
+    transition: box-shadow 0.3s;
+  }
+}
+
+
+@media only screen and (max-width: 800px){
+  .hawa-mahal{
+    width: 400px;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  .hawa-mahal{
+    width: 255px;
+  }
+
+  .text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    padding: 10px;
+    color: floralwhite;
+    width: 80%;
+    text-align: center;
+  }
+
+  .search-sites, .submit-button{
+    display: none;
+  }
+
+  *{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .hawa-mahal{
+    width: 205px;
+  }
+
+  .middle_section_1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .Explore{
+    font-size: 6px;
+  }
+
+  .text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 10px;
+    color: floralwhite;
+    width: 80%;
+    text-align: center;
+  }
+
+  .search-sites, .submit-button{
+    display: none;
+  }
+
+  *{
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+
+
+/* Middle section-1 Extension */
+@media only screen and (max-width: 1000px){
+  .middle_section_1_extension{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 16px;
+  }
+
+  /* Middle section-2&3 */
+  .middle_section_2, .middle_section_3{
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  /* Middle section-1 Extension */
+  .middle_section_1_extension{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 16px;
+  }
+
+
+  .destination-card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+
+
+  /* Middle section-2&3 */
+  .middle_section_2, .middle_section_3{
+    font-size: 22px;
+    font-weight: 800;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,81 @@
+.middle_section_2, .middle_section_3{
+  font-size: 22px;
+  font-weight: 800;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.destination, .destination_type{
+  display: flex;
+  flex-direction: row;
+  row-gap: 150px;
+  color: black;
+  column-gap: 150px;
+}
+
+.destination{
+  margin-bottom: 25px;
+}
+
+
+.destination-link {
+  text-decoration: none; /* Remove default underline for anchor */
+  color: inherit; /* Inherit text color from parent */
+  display: inline-block;
+}
+
+.destination-card{
+  display: flex;
+  flex-direction: column;
+  width: 200px;  
+}
+
+.destination-picture{
+  margin-top: 20px;
+  width: 200px;
+  height: 114px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.destination-name{
+  font-weight: 500;
+  width: 200px;
+  color: black;
+}
+
+.destination-address{
+  color: gray;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.middle_section_2_bottom, .middle_section_3_bottom{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 20px;
+  justify-content: left;
+}
+
+.featured_indian_sites, .cultural_sites, .natural_sites{
+  color: black;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-weight: 100;
+}
+
+
+/* Animation */
+.destination-name, .destination-picture, .destination-address{
+  transition: box-shadow 0.3s;
+  transition: text-shadow 0.3s;
+}
+
+.destination-name:hover, .destination-address:hover{
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.destination-picture:hover{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}

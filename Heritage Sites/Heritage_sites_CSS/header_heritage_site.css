@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.header_main{
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://knowindia.india.gov.in/assets/images/banner/inr-banner-photogallery.jpg'); /* Specify the URL of the image */
+  background-size: cover; /* Cover the entire background with the image */
+  background-position: center; /* Center the background image */
+  padding-bottom: 20px;
+}
+
+.header_top{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 24px;
+  padding-bottom: 15px;
+  
+}
+
+.header_left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  max-width: 1400px;
+  padding-left: 16px;
+}
+
+.unesco_logo{
+  height: 50pxpx;
+}
+
+.whc{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: left;
+  margin-top: 6px;
+}
+
+.header_right{
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-bottom: 12px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  flex: 1;
+}
+
+.header_right_top, .header_right_bottom{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.header_right_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header_links, .explore_unesco, .language, .login{
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 18px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.header_links:hover, .explore_unesco:hover, .language:hover, .login:hover{
+  text-decoration: underline;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+.header_links{
+  color: #eecf93;
+  font-weight: 700;
+}
+
+.language, .login, .explore_unesco{
+  color: #ffffff;
+}
+
+.header_right_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.link-list{
+  font-size: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
+  color: #ffffff;
+}
+
+
+.header_bottom_start{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  justify-content: flex-start;
+}
+
+.navigation_link{
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 5px;
+  text-decoration: none ;
+  margin-left: 0px;
+}
+
+.navigation{
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 40px;
+}
+
+.india{
+  display: flex;
+  margin-left: 90px;
+  flex-direction: row;
+}
+
+.india-text{
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.india_flag{
+  width: 60px;
+  margin-right: 15px;
+}
+
+.india-text-expansion{
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+}
+
+.membership{
+  padding-right: 10px;
+  color: white;
+}

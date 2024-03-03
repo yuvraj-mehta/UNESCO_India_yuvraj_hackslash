@@ -1,0 +1,111 @@
+.hs_middle_section_2, 
+.hs_middle_section_3, 
+.hs_middle_section_4, 
+.hs_middle_section_5, 
+.hs_middle_section_6, 
+.hs_middle_section_7{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 16px;
+}
+
+.hs_ms_heading{
+  color: black;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.photo_gallary{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+
+.hs_pictures{
+  height: 150px;
+  border-radius: 8px;
+}
+
+/* Middle Section-3,4,6 */
+.significance, .history, .conservation_efforts{
+  color: black;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+/* Middle Section-5 */
+.location, .architecture{
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.location_1, .architecture_1{
+  color: rgb(99, 117, 135);
+  width: 200px;
+}
+
+.location_2, .architecture_2{
+  color: black;
+  flex: 1;
+}
+
+
+/* Middle Section */
+.exploration{
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.explore_more{
+  font-size: 36px;
+  height: 45px;
+  color: black;
+  text-align: center;
+}
+
+.button_container{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 45%;
+}
+
+.read_more_button{
+  color: white;
+  background-color: rgb(25, 127, 229);
+  font-weight: 500;
+  height: 50px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: box-shadow 0.3s;
+}
+
+.read_more_button:hover{
+  cursor: pointer;
+}
+
+.read_more_button:active{
+  box-shadow: 0px 0px 8px;
+}
+
+
+/* Animation & Transition */
+.button_container :hover{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}

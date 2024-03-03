@@ -1,0 +1,22 @@
+.middle_section_1_extension{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 16px;
+}
+
+.ms_ext_heading{
+  color: black;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.importance-section{
+  color: black;
+  font-size: 18px;
+  margin-bottom: 25px;
+}

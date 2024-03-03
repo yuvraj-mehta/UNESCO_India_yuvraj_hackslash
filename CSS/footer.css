@@ -1,0 +1,85 @@
+div{
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.footer_container{
+  display: flex;
+  flex-direction: row;
+  background-image: url('https://knowindia.india.gov.in/assets/images/cultrl-bottom-bg.jpg'); /* Specify the URL of the image */
+  background-size: cover; /* Cover the entire background with the image */
+  background-position: center; /* Center the background image */
+  padding-top: 48px;
+  padding-bottom: 64px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer_right{
+  width: 260px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 24px;
+  flex: 1;
+}
+
+.follow{
+  margin: 0;
+  padding-top: 23px;
+  padding-bottom: 20px;
+}
+
+.social_media{
+  display: flex;
+  flex-direction: row;
+}
+
+.logo{
+  height: 32px;
+  width: 32px;
+}
+
+.social_media_logo{
+  height: 16px;
+  width: 16px;
+}
+
+.social_media_link, .unesco_links, .terms_of_use, .Policies{
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer_unesco{
+  margin-bottom: 8px;
+  margin-left: 18px;
+}
+
+.footer_left{
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex: 3;
+}
+
+.footer_left_1, .footer_left_2, .footer_left_3{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  flex: 1;
+}
+
+.footer_left_1_top, .footer_left_2_top, .footer_left_3_top{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 23px;
+  padding-bottom: 20px;
+}
+
+.footer_left_1_bottom, .footer_left_2_bottom, .footer_left_3_bottom{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 16px;
+}
+
