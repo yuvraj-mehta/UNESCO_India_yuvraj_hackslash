@@ -50,31 +50,6 @@
   transition: box-shadow 0.3s;
 }
 
-.search-sites{
-  height: 35px;
-  width: 60%;
-  border: none;
-  border-radius: 10px;
-  padding-left: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 16px;
-}
-
-.submit-button{
-  height: 45px;
-  border: none;
-  border-radius: 10px;
-  width: 100px;
-  background-color: rgb(4, 104, 253);
-  color: white;
-  font-size: 16px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 
 
 
